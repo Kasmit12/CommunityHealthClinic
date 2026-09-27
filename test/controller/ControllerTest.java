@@ -1,5 +1,6 @@
 package controller;
 
+import view.ReportsView;
 import org.junit.Test;
 import static org.junit.Assert.*;
 
@@ -51,4 +52,10 @@ public class ControllerTest {
         assertNotNull(view);
         view.dispose();
     }
+    @Test
+public void testReportsViewCreation() {
+    ReportsView view = new ReportsView();
+    assertNotNull(view);
+    view.dispose();
+}
 }
