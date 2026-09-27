@@ -56,7 +56,11 @@ JUnit 4.13 is used for unit testing. Six tests currently verify successful creat
 
 
 
-Current test result: \*\*6 tests passed, 0 failures.\*\*
+Current test result: **7 tests passed, 0 failures.**
+
+The test suite covers MainController and all six major Swing interfaces:
+Main Menu, Patient Registration, Doctor Registration, Appointment Booking,
+Treatment Entry, and Reports.
 
 
 
